@@ -107,7 +107,7 @@ You can use the following commands in a Python script to perform both full loads
 Run the following code to perform a full load and output the results in JSON format:
 
 ```python
-from your_module import full_load_as_json
+from arcgis_connector.fetch_data import full_load_as_json
 
 def main():
     # Full Load as JSON
@@ -126,7 +126,7 @@ if __name__ == "__main__":
 To perform a full load and output the results as a GeoDataFrame, use the following code:
 
 ```python
-from your_module import full_load_as_geodataframe
+from arcgis_connector.fetch_data import full_load_as_geodataframe
 
 def main():
     # Full Load as GeoDataFrame
@@ -145,7 +145,7 @@ if __name__ == "__main__":
 To perform an incremental load and output new data in JSON format, use the following code:
 
 ```python
-from your_module import incremental_load_as_json
+from arcgis_connector.fetch_data import incremental_load_as_json
 
 def main():
     # Incremental Load as JSON
@@ -164,7 +164,7 @@ if __name__ == "__main__":
 For an incremental load that outputs new data as a GeoDataFrame, use this code:
 
 ```python
-from your_module import incremental_load_as_geodataframe
+from arcgis_connector.fetch_data import incremental_load_as_geodataframe
 
 def main():
     # Incremental Load as GeoDataFrame
