@@ -22,7 +22,7 @@ This project is an ETL pipeline designed to extract data from an ArcGIS Feature 
 1. Clone the repository and navigate to the project directory:
 
    ```bash
-   git clone https://github.com/your-username/ETL_Project.git
+   git clone https://github.com/SammyGIS/arcgis_connector.git
    cd ETL_Project
    ```
 
