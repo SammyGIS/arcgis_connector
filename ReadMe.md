@@ -191,11 +191,3 @@ if __name__ == "__main__":
    python layer_saver.py --output-format csv --file-path "output.csv"
    ```
 
-## Dependencies
-
-Install dependencies from `requirements.txt`:
-
-```bash
-pip install -r requirements.txt
-```
-
